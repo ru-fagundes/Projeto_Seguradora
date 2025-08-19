@@ -15,9 +15,9 @@ Este projeto tem como objetivo realizar uma análise de dados internos do setor 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python**: Pandas, Seaborn, Matplotlib, Scikit-learn
-- **Power BI**: Visualização de indicadores
-- **Jupyter Notebook**: Organização do projeto
+- **Python**: Pandas, Seaborn, Matplotlib, Scikit-learn, Plotly
+- **Dashboard em HTML**: Visualização de indicadores
+- **Visual Studio Code**: Organização do projeto
 - **API Simulada**: Simulação de extração de dados via requests
 
 ---
@@ -34,24 +34,28 @@ Este projeto tem como objetivo realizar uma análise de dados internos do setor 
 
 ## 🔮 Insights Gerados
 
-- Reembolsos e negativas concentraram 60% das ocorrências críticas
-- Canal app apresentou maior tempo de resolução médio
-- Setor X teve maior reincidência de casos com SLA ultrapassado
-
+- Tipo mais recorrente: erro sistema
+- Canal mais eficiente: telefone
+- Período crítico: 2024-01
+- Setor mais demandado: Setor B
+- Cumprimento SLA (≤5 dias): 70.6%
+- Tempo médio de resolução: 4.5 dias
+- Taxa de reincidência: 30.8%
 ---
 
 ## 📁 Arquivos do Projeto
 
 - `analise_ocorrencias_seguradora.ipynb`: notebook completo com a análise e o modelo
 - `dados_ocorrencias_seguradora.csv`: base de dados simulada
-- `dados_ocorrencias_formatado.csv`: dataset pronto para importar no Power BI
+- `dados_ocorrencias_formatado.csv`: dataset pronto para importar para geração de dashboards
+- `dashboard_ocorrencias_interativo.html`: dashboard interativo em html
 
 ---
 
 ## 💡 Próximas Melhorias
 
 - Integração real com APIs da seguradora
-- Interface web com Streamlit ou Dash para relatórios automatizados
+- Interface web com Streamlit para relatórios automatizados
 - Alertas preditivos em tempo real com base nos dados
 
 ---
