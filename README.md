@@ -48,6 +48,7 @@ Este projeto tem como objetivo realizar uma análise de dados internos do setor 
 - `analise_ocorrencias_seguradora.ipynb`: notebook completo com a análise e o modelo
 - `dados_ocorrencias_seguradora.csv`: base de dados simulada
 - `dados_ocorrencias_formatado.csv`: dataset pronto para importar para geração de dashboards
+- `dashboard_interativa_corrigido.py`: dashboard gerada em Python
 - `dashboard_ocorrencias_interativo.html`: dashboard interativo em html
 
 ---
