@@ -73,7 +73,6 @@ jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
 ```
 
 ## 📊 Features do Dashboard
-## 📊 Features do Dashboard
 
 - 📊 5 KPIs principais (total, tempo médio, críticos, reincidentes, SLA)
 - 🔍 Filtros por período, tipo, canal e classificação
