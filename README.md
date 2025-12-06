@@ -2,10 +2,15 @@
 
 > Sistema completo de análise de dados, machine learning e dashboard interativo para gestão de ocorrências em seguradora de convênio médico.
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)](https://streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://projeto-seguradora.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-⚠️ **IMPORTANTE**: Este dashboard é uma aplicação Python/Streamlit que roda **localmente** no seu computador. Não é possível abrir diretamente pelo GitHub. Siga as instruções abaixo para executar.
+## 🌐 Acesso Rápido
+
+**Dashboard Online**: [https://projeto-seguradora.streamlit.app](https://projeto-seguradora.streamlit.app)
+
+> Acesse o dashboard interativo diretamente pelo navegador, sem necessidade de instalação!
 
 ## 📊 Visão Geral
 
@@ -34,26 +39,24 @@ Projeto_Seguradora/
 └── reports/                          # Relatórios finais
 ```
 
-## 🚀 Início Rápido
+## 🚀 Execução Local (Opcional)
 
-### 1. Instalar Dependências
+Caso queira rodar o projeto localmente:
+
+### 1. Clonar Repositório
+
+```bash
+git clone https://github.com/ru-fagundes/Projeto_Seguradora.git
+cd Projeto_Seguradora
+```
+
+### 2. Instalar Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Executar Análise (Notebook)
-
-```bash
-jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
-```
-
-Execute as células sequencialmente para:
-- Explorar e limpar dados
-- Treinar modelos preditivos
-- Gerar visualizações
-
-### 3. Abrir Dashboard Interativo
+### 3. Executar Dashboard
 
 ```bash
 streamlit run src/dashboard_streamlit.py
@@ -61,11 +64,20 @@ streamlit run src/dashboard_streamlit.py
 
 Acesse em: **http://localhost:8501**
 
-O dashboard oferece:
+### 4. Análise Completa (Notebook)
+
+```bash
+jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
+```
+
+## 📊 Features do Dashboard
+## 📊 Features do Dashboard
+
 - 📊 5 KPIs principais (total, tempo médio, críticos, reincidentes, SLA)
 - 🔍 Filtros por período, tipo, canal e classificação
-- 📈 8 visualizações interativas (barras, pizza, área, heatmap)
+- 📈 10 visualizações interativas (barras, pizza, área, heatmap)
 - 📥 Exportação de dados filtrados em CSV
+- 📱 Layout responsivo e otimizado
 
 ## 📦 Dependências
 
