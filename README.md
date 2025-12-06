@@ -6,11 +6,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🌐 Acesso Rápido
+## 🌐 Acesso ao Dashboard
 
-**Dashboard Online**: [https://projeto-seguradora.streamlit.app](https://projeto-seguradora.streamlit.app)
+⚠️ **IMPORTANTE**: Este dashboard é uma aplicação Python/Streamlit que **roda localmente**. Não é possível abrir diretamente pelo link do GitHub.
 
-> Acesse o dashboard interativo diretamente pelo navegador, sem necessidade de instalação!
+📄 **[Download do Manual Completo (PDF)](./DASHBOARD_DEMONSTRACAO.pdf)** - Demonstração detalhada da interface e funcionalidades
+
+> Para visualizar o dashboard, é necessário fazer um fork do repositório e executar localmente seguindo as instruções abaixo.
 
 ## 📊 Visão Geral
 
