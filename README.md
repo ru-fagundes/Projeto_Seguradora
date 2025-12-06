@@ -2,6 +2,11 @@
 
 > Sistema completo de análise de dados, machine learning e dashboard interativo para gestão de ocorrências em seguradora de convênio médico.
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://python.org)
+
+⚠️ **IMPORTANTE**: Este dashboard é uma aplicação Python/Streamlit que roda **localmente** no seu computador. Não é possível abrir diretamente pelo GitHub. Siga as instruções abaixo para executar.
+
 ## 📊 Visão Geral
 
 Projeto de análise exploratória (EDA) e modelagem preditiva para identificar padrões, otimizar processos e reduzir tempo de resolução de ocorrências. Inclui dashboard web interativo com Streamlit para visualização e tomada de decisão em tempo real.
