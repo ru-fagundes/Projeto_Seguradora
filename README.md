@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="images/banner.png" alt="Banner Projeto Seguradora" width="100%">
+</div>
+
 # 🏥 Análise de Ocorrências - Seguradora
 
 > Sistema completo de análise de dados, machine learning e dashboard interativo para gestão de ocorrências em seguradora de convênio médico.
@@ -71,8 +75,6 @@ Acesse em: **http://localhost:8501**
 ```bash
 jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
 ```
-
-## 📊 Features do Dashboard
 ## 📊 Features do Dashboard
 
 - 📊 5 KPIs principais (total, tempo médio, críticos, reincidentes, SLA)
