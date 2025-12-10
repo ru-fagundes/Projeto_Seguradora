@@ -75,10 +75,7 @@ Acesse em: **http://localhost:8501**
 ```bash
 jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
 ```
-<<<<<<< HEAD
-=======
 
->>>>>>> 13e8096e8e83cb7b3bea28474bb361c9e68b7c80
 ## 📊 Features do Dashboard
 
 - 📊 5 KPIs principais (total, tempo médio, críticos, reincidentes, SLA)
