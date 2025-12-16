@@ -1,8 +1,0 @@
-# Dashboards Exportados
-
-Esta pasta contém os dashboards HTML gerados pelos scripts de visualização.
-
-Para gerar novos dashboards, use o Streamlit:
-```bash
-streamlit run src/dashboard_streamlit.py
-```

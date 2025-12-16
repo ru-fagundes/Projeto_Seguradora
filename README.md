@@ -1,130 +1,147 @@
 <div align="center">
-  <img src="images/banner.png" alt="Banner Projeto Seguradora" width="100%">
+  <img src="assets/images/banner.png" alt="Banner Projeto Seguradora" width="100%">
+  
+  # 🏥 Sistema de Análise de Ocorrências - Seguradora
+  
+  ##### Análise de Dados, Machine Learning e Dashboard Interativo para Gestão de Seguros de Saúde
+  
+  ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+  
+  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  
 </div>
 
-# 🏥 Análise de Ocorrências - Seguradora
+---
 
-> Sistema completo de análise de dados, machine learning e dashboard interativo para gestão de ocorrências em seguradora de convênio médico.
+## 📋 Sobre o Projeto
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://projeto-seguradora.streamlit.app)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+Sistema completo de análise preditiva para otimização de processos operacionais em seguradoras de saúde. Combina análise exploratória de dados (EDA), algoritmos de machine learning e dashboard web interativo para identificar padrões, reduzir tempo de resolução e melhorar a tomada de decisão.
 
-## 🌐 Acesso ao Dashboard
+### 🎯 Principais Recursos
 
-⚠️ **IMPORTANTE**: Este dashboard é uma aplicação Python/Streamlit que **roda localmente**. Não é possível abrir diretamente pelo link do GitHub.
+- **Análise Exploratória Completa**: Estatísticas descritivas, correlações e visualizações avançadas
+- **Modelos Preditivos**: 5 algoritmos de ML comparados (Random Forest, SVM, Gradient Boosting, KNN, Logistic Regression)
+- **Dashboard Interativo**: Interface web com filtros dinâmicos, KPIs em tempo real e exportação de dados
+- **Insights Acionáveis**: Identificação automática de gargalos operacionais e padrões de reincidência
 
-📄 **[Download do Manual Completo (PDF)](./DASHBOARD_DEMONSTRACAO.pdf)** - Demonstração detalhada da interface e funcionalidades
+### 📊 Principais Resultados
 
-> Para visualizar o dashboard, é necessário fazer um fork do repositório e executar localmente seguindo as instruções abaixo.
+| Métrica | Resultado |
+|---------|-----------|
+| **Acurácia do Modelo** | >80% na classificação de criticidade |
+| **Redução de Tempo** | Identificação de canais 40% mais eficientes |
+| **Padrões Detectados** | Análise de sazonalidade e tendências temporais |
+| **Visualizações** | 10+ gráficos interativos com Plotly |
 
-## 📊 Visão Geral
+---
 
-Projeto de análise exploratória (EDA) e modelagem preditiva para identificar padrões, otimizar processos e reduzir tempo de resolução de ocorrências. Inclui dashboard web interativo com Streamlit para visualização e tomada de decisão em tempo real.
-
-## ✨ Funcionalidades
-
-- **Análise Exploratória**: Estatísticas, distribuições e correlações entre variáveis
-- **Machine Learning**: Classificação de criticidade com 5 algoritmos (Random Forest, SVM, etc.)
-- **Dashboard Interativo**: Interface web com filtros dinâmicos, KPIs e gráficos responsivos
-- **Insights Automáticos**: Identificação de gargalos, reincidências e oportunidades
-
-## 🗂️ Estrutura
+## 🗂️ Estrutura do Projeto
 
 ```
 Projeto_Seguradora/
-├── data/
-│   ├── raw/                          # Dados originais
-│   └── processed/                    # Dados processados
-├── notebooks/
-│   └── analise_ocorrencias_seguradora.ipynb  # EDA + ML
-├── src/
-│   └── dashboard_streamlit.py        # Dashboard web
-├── models/                           # Modelos salvos (após treinamento)
-├── dashboards/                       # Exportações HTML (opcional)
-└── reports/                          # Relatórios finais
+├── 📁 assets/              # Recursos visuais (banner, imagens)
+├── 📁 config/              # Arquivos de configuração
+│   └── requirements.txt    # Dependências Python
+├── 📁 data/
+│   ├── raw/                # Dados originais (CSV)
+│   └── processed/          # Dados processados pelo notebook
+├── 📁 notebooks/           # Análise exploratória e ML
+│   └── analise_ocorrencias_seguradora.ipynb
+├── 📁 src/                 # Código-fonte da aplicação
+│   └── dashboard_streamlit.py
+└── README.md
 ```
 
-## 🚀 Execução Local (Opcional)
+---
 
-Caso queira rodar o projeto localmente:
+## 🚀 Como Executar
 
-### 1. Clonar Repositório
+### Pré-requisitos
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
 
+### Instalação
+
+1️⃣ **Clone o repositório**
 ```bash
 git clone https://github.com/ru-fagundes/Projeto_Seguradora.git
 cd Projeto_Seguradora
 ```
 
-### 2. Instalar Dependências
-
+2️⃣ **Instale as dependências**
 ```bash
-pip install -r requirements.txt
+pip install -r config/requirements.txt
 ```
 
-### 3. Executar Dashboard
-
+3️⃣ **Execute o dashboard**
 ```bash
 streamlit run src/dashboard_streamlit.py
 ```
 
-Acesse em: **http://localhost:8501**
+O dashboard estará disponível em **http://localhost:8501**
 
-### 4. Análise Completa (Notebook)
+### Executar Notebook Jupyter
 
 ```bash
 jupyter notebook notebooks/analise_ocorrencias_seguradora.ipynb
 ```
 
-## 📊 Features do Dashboard
+---
 
-- 📊 5 KPIs principais (total, tempo médio, críticos, reincidentes, SLA)
-- 🔍 Filtros por período, tipo, canal e classificação
-- 📈 10 visualizações interativas (barras, pizza, área, heatmap)
-- 📥 Exportação de dados filtrados em CSV
-- 📱 Layout responsivo e otimizado
+## 💡 Funcionalidades do Dashboard
 
-## 📦 Dependências
+### KPIs e Métricas
+- Total de ocorrências registradas
+- Tempo médio de resolução
+- Taxa de ocorrências críticas
+- Percentual de clientes reincidentes
+- Cumprimento de SLA por setor
 
-- **Python 3.8+**
-- **Análise**: pandas, numpy, matplotlib, seaborn
-- **Machine Learning**: scikit-learn
-- **Dashboard**: streamlit, plotly
-- **Notebook**: jupyter
+### Visualizações Interativas
+- Distribuição por tipo de problema (barras)
+- Tempo de resolução por canal (área)
+- Matriz de correlação (heatmap)
+- Análise de reincidência (pizza)
+- Tendências temporais (linha)
 
-## 📈 Resultados
-
-- **Tempo médio**: Análise de resolução por tipo de ocorrência
-- **Canais eficientes**: Identificação dos canais mais rápidos
-- **Padrões temporais**: Sazonalidade e tendências
-- **Predição**: Classificação automática de criticidade com >80% acurácia
-
-## 📝 Documentação Adicional
-
-- **Notebook**: Comentários inline explicando cada etapa da análise
-- **Dashboard**: Interface intuitiva com tooltips e labels descritivos
-- **Código**: Funções documentadas com docstrings
-
-## 🛠️ Tecnologias
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green)
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive_Viz-purple)
+### Recursos Avançados
+- ✅ Filtros dinâmicos por período, tipo e classificação
+- ✅ Exportação de dados em CSV
+- ✅ Interface responsiva e otimizada
+- ✅ Atualização em tempo real
 
 ---
 
-**📌 Projeto desenvolvido para otimização de processos operacionais em seguradoras de saúde**
+##  Metodologia
+
+1. **Coleta e Preparação**: Limpeza e formatação de 500+ registros de ocorrências
+2. **Análise Exploratória**: Estatísticas descritivas, distribuições e correlações
+3. **Feature Engineering**: Criação de variáveis derivadas e codificação
+4. **Modelagem**: Treinamento e comparação de 5 algoritmos de classificação
+5. **Validação**: Cross-validation e análise de feature importance
+6. **Deploy**: Dashboard interativo para visualização e insights
 
 ---
 
-## 👩‍💻 Desenvolvido por
+## 👩‍💻 Autora
 
 **Rubia Fagundes**  
-[LinkedIn](https://www.linkedin.com/in/rubiafagundes) | rubiafagundes_ds@outlook.com
+Data Scientist | Machine Learning | Business Intelligence
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubiafagundes)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rubiafagundes_ds@outlook.com)
 
 ---
 
-## 📄 Licença / Aviso  
-Dados são fictícios / simulados. Projeto tem finalidade educacional.  
+## 📄 Licença
+
+Este projeto utiliza dados fictícios e tem finalidade **exclusivamente educacional**.  
+Desenvolvido como portfólio de ciência de dados e análise preditiva.
+
+---
+
+<div align="center">
+  
+  **⭐ Se este projeto foi útil, considere dar uma estrela!**
+  
+</div>
